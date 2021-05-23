@@ -1,0 +1,24 @@
+This Project is an Assignment solution on Frontend web testign and API testing given by Seven Tech.
+
+Front end Assignment : 
+Install the required tools, write tests using Python, and pytest framework. This should be one single test suite, which does all the below tests for front-end assignment. 
+
+URL: http://the-internet.herokuapp.com/
+a) Assert Broken images http://the-internet.herokuapp.com/broken_images
+b) Assert forgot password success message on the page http://the-internet.herokuapp.com/forgot_password
+c) Assert form validation functionality Post entering a dummy username and password on http://the-internet.herokuapp.com/login
+d) Write a test to enter alphabets on this and mark it as a failure if we cannot enter on page http://the-internet.herokuapp.com/inputs
+e) Write a test to sort the table by the amount due on page http://the-internet.herokuapp.com/tables
+f) Right a looped script to assert a 'successful notification" after repeated unsuccessful notification on page http://the-internet.herokuapp.com/notification_message_rendered
+
+
+
+API assignment
+API URI: https://reqres.in
+Should be one single suite that runs all the below tests and generates a report of which is passed and which is failed. This can be developed using Python or postman. This is an integration test suite.
+
+a) Test the Register API by registering the user successfully using https://reqres.in/api/register and by logging in using the data used for the registration on API https://reqres.in/api/login. Pass it only if the user is created and able to login
+b) Using details of the user created in step a,  Delete the user registered above and assert an unsuccessful login attempt on login API https://reqres.in/api/login. Pass it only if the user created in Step a is deleted and unable to login
+c) Assert a resource on https://reqres.in/api/unknown where page=1 and ID=2, year=2001
+d) Assert a user on https://reqres.in/api/users?page=2 where the assertion is passed if the payload contains user with ID=7, Lastname =Lawson
+e) Assert the payload in API https://reqres.in/api/users/2 where it will check for first_name as "John" and fails the test if it's not "John"
